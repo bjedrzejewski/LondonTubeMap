@@ -150,5 +150,3 @@ class Index extends React.Component {
     componentWillUnmount = () => {
     }
 }
-
-export default Index
