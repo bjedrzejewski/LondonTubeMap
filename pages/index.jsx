@@ -111,7 +111,7 @@ class Index extends React.Component {
         window.addEventListener('keydown', this.handleKeyPress)
 
         //setting up websocket
-        this.ws = new WebSocket("ws://localhost:7070/game/" + this.sessionId)
+        this.ws = new WebSocket("ws://35.178.81.71:7070/game/" + this.sessionId)
         this.ws.onopen = event => {
             console.log('connection established')
         }
